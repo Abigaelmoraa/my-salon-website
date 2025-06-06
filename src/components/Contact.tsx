@@ -73,8 +73,8 @@ const Contact = () => {
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Phone & Email</h3>
                   <p className="text-gray-600">
-                    Phone: (555) 123-4567<br />
-                    Email: info@bellasalon.com
+                    Phone: 0700747101<br />
+                    Email: abigaelmoraa100@gmail.com
                   </p>
                 </div>
               </div>
@@ -193,10 +193,10 @@ const Contact = () => {
             Speak directly with our team to schedule your appointment
           </p>
           <a
-            href="tel:+15551234567"
+            href="tel:0700747101"
             className="bg-white text-rose-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transform hover:scale-105 transition-all duration-300 shadow-lg inline-block"
           >
-            Call (555) 123-4567
+            Call 0700747101
           </a>
         </div>
       </section>

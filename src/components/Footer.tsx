@@ -64,11 +64,11 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Contact className="h-5 w-5 text-rose-400" />
-                <p className="text-gray-300">(555) 123-4567</p>
+                <p className="text-gray-300">0700747101</p>
               </div>
               <div className="flex items-center space-x-3">
                 <span className="text-rose-400">✉️</span>
-                <p className="text-gray-300">info@bellasalon.com</p>
+                <p className="text-gray-300">abigaelmoraa100@gmail.com</p>
               </div>
               <div className="flex items-center space-x-3">
                 <Clock className="h-5 w-5 text-rose-400" />
