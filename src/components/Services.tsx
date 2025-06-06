@@ -182,32 +182,32 @@ const Services = () => {
 
       {/* Services Grid */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-6">
           {filteredServices.map((service, index) => (
             <div
               key={index}
-              className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden"
+              className="bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden"
             >
-              <div className="h-48 overflow-hidden">
+              <div className="h-32 overflow-hidden">
                 <img 
                   src={service.image} 
                   alt={service.name}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">{service.name}</h3>
-                <p className="text-gray-600 mb-4 text-sm">{service.description}</p>
-                <div className="flex items-center justify-between mb-4">
-                  <span className="text-2xl font-bold text-rose-600">{service.price}</span>
-                  <div className="flex items-center text-gray-500 text-sm">
-                    <Clock className="h-4 w-4 mr-1" />
+              <div className="p-4">
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">{service.name}</h3>
+                <p className="text-gray-600 mb-3 text-xs">{service.description}</p>
+                <div className="flex items-center justify-between mb-3">
+                  <span className="text-lg font-bold text-rose-600">{service.price}</span>
+                  <div className="flex items-center text-gray-500 text-xs">
+                    <Clock className="h-3 w-3 mr-1" />
                     {service.duration}
                   </div>
                 </div>
                 <Link
                   to="/appointment"
-                  className="w-full bg-gradient-to-r from-rose-500 to-pink-500 text-white py-3 px-4 rounded-lg font-medium hover:from-rose-600 hover:to-pink-600 transition-all duration-300 block text-center"
+                  className="w-full bg-gradient-to-r from-rose-500 to-pink-500 text-white py-2 px-3 rounded-lg text-sm font-medium hover:from-rose-600 hover:to-pink-600 transition-all duration-300 block text-center"
                 >
                   Book This Service
                 </Link>
