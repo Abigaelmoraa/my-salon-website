@@ -38,7 +38,7 @@ const Home = () => {
             Abby Salon
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 mb-2">
-            Beauty & Style Since 2024
+            Beauty & Style
           </p>
           <p className="text-lg text-gray-600 mb-8">
             Transform your look with our premium salon services

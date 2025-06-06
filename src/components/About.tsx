@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { User } from 'lucide-react';
 
@@ -39,9 +38,9 @@ const About = () => {
       {/* About Hero */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
         <div className="text-center mb-16">
-          <h1 className="text-5xl font-bold text-gray-900 mb-6">About Bella Salon</h1>
+          <h1 className="text-5xl font-bold text-gray-900 mb-6">About Abby Salon</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            For over 20 years, we've been dedicated to helping our clients look and feel their absolute best
+            Founded in 2024, we've been dedicated to helping our clients look and feel their absolute best
           </p>
         </div>
 
@@ -50,7 +49,7 @@ const About = () => {
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
             <div className="space-y-4 text-gray-600">
               <p>
-                Founded in 2003, Bella Salon began as a small neighborhood beauty shop with a big dream: 
+                Founded in 2024, Abby Salon began as a small neighborhood beauty shop with a big dream: 
                 to create a space where everyone could feel beautiful, confident, and pampered.
               </p>
               <p>
