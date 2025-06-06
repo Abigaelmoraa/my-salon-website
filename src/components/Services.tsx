@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Clock } from 'lucide-react';
@@ -45,7 +44,7 @@ const Services = () => {
       description: 'Partial or full highlights to brighten your look',
       price: 'KSH 3,000',
       duration: '150 min',
-      image: 'https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=300&h=200&fit=crop'
+      image: 'https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=300&h=200&fit=crop'
     },
     {
       category: 'braiding',
@@ -85,7 +84,7 @@ const Services = () => {
       description: 'Stylish twist braids for a modern look',
       price: 'KSH 3,200',
       duration: '3-4 hours',
-      image: 'https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=300&h=200&fit=crop'
+      image: 'https://images.unsplash.com/photo-1580618671309-1e9c6c451d87?w=300&h=200&fit=crop'
     },
     {
       category: 'braiding',
@@ -117,7 +116,7 @@ const Services = () => {
       description: 'Relaxing foot treatment with nail care and polish',
       price: 'KSH 800',
       duration: '45 min',
-      image: 'https://images.unsplash.com/photo-1519014816548-bf5fe059798b?w=300&h=200&fit=crop'
+      image: 'https://images.unsplash.com/photo-1567046742002-1866c4dd3d53?w=300&h=200&fit=crop'
     },
     {
       category: 'facial',
