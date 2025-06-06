@@ -14,7 +14,7 @@ const Footer = () => {
               <div className="bg-gradient-to-r from-rose-400 to-pink-500 p-2 rounded-full">
                 <Scissors className="h-6 w-6 text-white" />
               </div>
-              <span className="text-2xl font-bold">Bella Salon</span>
+              <span className="text-2xl font-bold">Abby Salon</span>
             </Link>
             <p className="text-gray-300 mb-4">
               Transform your look with our premium salon services. Beauty redefined since 2003.
@@ -84,7 +84,7 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-300 text-sm">
-              © 2024 Bella Salon. All rights reserved.
+              © 2024 Abby Salon. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-300 hover:text-rose-400 text-sm transition-colors">Privacy Policy</a>
