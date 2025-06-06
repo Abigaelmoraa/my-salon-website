@@ -18,7 +18,7 @@ const Services = () => {
       category: 'hair',
       name: 'Women\'s Haircut',
       description: 'Professional cut and style tailored to your face shape',
-      price: 'KSH 900',
+      price: 'KSH 500',
       duration: '45 min',
       image: 'https://images.unsplash.com/photo-1560869713-bf165a1ed779?w=300&h=200&fit=crop'
     },
@@ -26,7 +26,7 @@ const Services = () => {
       category: 'hair',
       name: 'Men\'s Haircut',
       description: 'Classic and modern cuts for the modern gentleman',
-      price: 'KSH 700',
+      price: 'KSH 400',
       duration: '30 min',
       image: 'https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=300&h=200&fit=crop'
     },
@@ -34,7 +34,7 @@ const Services = () => {
       category: 'hair',
       name: 'Hair Coloring',
       description: 'Full color transformation with premium products',
-      price: 'KSH 2,000',
+      price: 'KSH 1,200',
       duration: '120 min',
       image: 'https://images.unsplash.com/photo-1522338242992-e1a54906a8da?w=300&h=200&fit=crop'
     },
@@ -42,15 +42,15 @@ const Services = () => {
       category: 'hair',
       name: 'Highlights',
       description: 'Partial or full highlights to brighten your look',
-      price: 'KSH 2,500',
+      price: 'KSH 1,400',
       duration: '150 min',
-      image: 'https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=300&h=200&fit=crop'
+      image: 'https://images.unsplash.com/photo-1529896596740-10c28652f2db?w=300&h=200&fit=crop'
     },
     {
       category: 'braiding',
       name: 'Box Braids',
       description: 'Classic protective box braids in various sizes',
-      price: 'KSH 2,800',
+      price: 'KSH 1,600',
       duration: '4-6 hours',
       image: 'https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=300&h=200&fit=crop'
     },
@@ -58,7 +58,7 @@ const Services = () => {
       category: 'braiding',
       name: 'Cornrows',
       description: 'Traditional cornrow braiding in creative patterns',
-      price: 'KSH 2,000',
+      price: 'KSH 1,200',
       duration: '2-3 hours',
       image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop'
     },
@@ -66,7 +66,7 @@ const Services = () => {
       category: 'braiding',
       name: 'French Braids',
       description: 'Elegant French braids for special occasions',
-      price: 'KSH 1,400',
+      price: 'KSH 800',
       duration: '1-2 hours',
       image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300&h=200&fit=crop'
     },
@@ -74,7 +74,7 @@ const Services = () => {
       category: 'braiding',
       name: 'Ghana Braids',
       description: 'Beautiful Ghana braids with intricate patterns',
-      price: 'KSH 3,200',
+      price: 'KSH 1,800',
       duration: '5-7 hours',
       image: 'https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?w=300&h=200&fit=crop'
     },
@@ -82,15 +82,15 @@ const Services = () => {
       category: 'braiding',
       name: 'Twist Braids',
       description: 'Stylish twist braids for a modern look',
-      price: 'KSH 2,500',
+      price: 'KSH 1,400',
       duration: '3-4 hours',
-      image: 'https://images.unsplash.com/photo-1580618671309-1e9c6c451d87?w=300&h=200&fit=crop'
+      image: 'https://images.unsplash.com/photo-1594736797933-d0d89d87cd89?w=300&h=200&fit=crop'
     },
     {
       category: 'braiding',
       name: 'Fulani Braids',
       description: 'Traditional Fulani braids with beads and accessories',
-      price: 'KSH 3,500',
+      price: 'KSH 2,000',
       duration: '6-8 hours',
       image: 'https://images.unsplash.com/photo-1580618671485-2e52e5f0f04d?w=300&h=200&fit=crop'
     },
@@ -98,7 +98,7 @@ const Services = () => {
       category: 'nails',
       name: 'Classic Manicure',
       description: 'Traditional manicure with nail shaping and polish',
-      price: 'KSH 500',
+      price: 'KSH 300',
       duration: '30 min',
       image: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300&h=200&fit=crop'
     },
@@ -106,7 +106,7 @@ const Services = () => {
       category: 'nails',
       name: 'Gel Manicure',
       description: 'Long-lasting gel polish manicure',
-      price: 'KSH 700',
+      price: 'KSH 450',
       duration: '45 min',
       image: 'https://images.unsplash.com/photo-1610992015782-3b0e2ec94cb4?w=300&h=200&fit=crop'
     },
@@ -114,15 +114,15 @@ const Services = () => {
       category: 'nails',
       name: 'Classic Pedicure',
       description: 'Relaxing foot treatment with nail care and polish',
-      price: 'KSH 650',
+      price: 'KSH 400',
       duration: '45 min',
-      image: 'https://images.unsplash.com/photo-1567046742002-1866c4dd3d53?w=300&h=200&fit=crop'
+      image: 'https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=300&h=200&fit=crop'
     },
     {
       category: 'facial',
       name: 'Classic Facial',
       description: 'Deep cleansing facial for all skin types',
-      price: 'KSH 1,400',
+      price: 'KSH 800',
       duration: '60 min',
       image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=300&h=200&fit=crop'
     },
@@ -130,7 +130,7 @@ const Services = () => {
       category: 'facial',
       name: 'Anti-Aging Facial',
       description: 'Advanced treatment to reduce signs of aging',
-      price: 'KSH 2,000',
+      price: 'KSH 1,200',
       duration: '75 min',
       image: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=300&h=200&fit=crop'
     },
@@ -138,7 +138,7 @@ const Services = () => {
       category: 'facial',
       name: 'Eyebrow Shaping',
       description: 'Professional eyebrow waxing and shaping',
-      price: 'KSH 400',
+      price: 'KSH 250',
       duration: '15 min',
       image: 'https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=300&h=200&fit=crop'
     }
