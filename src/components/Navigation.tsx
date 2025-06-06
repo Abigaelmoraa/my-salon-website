@@ -27,7 +27,7 @@ const Navigation = () => {
               <Scissors className="h-6 w-6 text-white" />
             </div>
             <span className="text-2xl font-bold bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
-              Bella Salon
+              Abby Salon
             </span>
           </Link>
 

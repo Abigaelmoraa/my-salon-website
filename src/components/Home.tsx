@@ -8,40 +8,42 @@ const Home = () => {
     {
       icon: <Calendar className="h-8 w-8" />,
       title: 'Easy Booking',
-      description: 'Book your appointments online 24/7 with our simple booking system'
+      description: 'Book your appointments online 24/7'
     },
     {
       icon: <Clock className="h-8 w-8" />,
       title: 'Flexible Hours',
-      description: 'Open 7 days a week with extended hours to fit your schedule'
+      description: 'Open 7 days a week with extended hours'
     },
     {
       icon: <User className="h-8 w-8" />,
       title: 'Expert Stylists',
-      description: 'Our certified professionals bring years of experience and creativity'
+      description: 'Certified professionals with years of experience'
     }
   ];
 
   const services = [
-    { name: 'Hair Cut & Style', price: '$45', image: '💇‍♀️' },
-    { name: 'Hair Coloring', price: '$80', image: '🎨' },
-    { name: 'Manicure & Pedicure', price: '$35', image: '💅' },
-    { name: 'Facial Treatment', price: '$60', image: '✨' }
+    { name: 'Hair Cut & Style', price: 'KSH 1,200', image: '💇‍♀️' },
+    { name: 'Hair Coloring', price: 'KSH 2,500', image: '🎨' },
+    { name: 'Manicure & Pedicure', price: 'KSH 900', image: '💅' },
+    { name: 'Facial Treatment', price: 'KSH 1,800', image: '✨' }
   ];
 
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center bg-gradient-to-br from-rose-100 via-pink-50 to-purple-100">
-        <div className="absolute inset-0 bg-black/10"></div>
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent animate-fade-in">
-            Beauty Redefined
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
+            Abby Salon
           </h1>
-          <p className="text-xl md:text-2xl text-gray-700 mb-8 animate-fade-in-delay">
+          <p className="text-xl md:text-2xl text-gray-700 mb-2">
+            Beauty & Style Since 2024
+          </p>
+          <p className="text-lg text-gray-600 mb-8">
             Transform your look with our premium salon services
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-delay-2">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/appointment"
               className="bg-gradient-to-r from-rose-500 to-pink-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-rose-600 hover:to-pink-600 transform hover:scale-105 transition-all duration-300 shadow-lg"
@@ -62,16 +64,16 @@ const Home = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Choose Bella Salon?</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Why Choose Abby Salon?</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Experience the difference with our premium services and expert care
+              Experience the difference with our premium services
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             {features.map((feature, index) => (
               <div
                 key={index}
-                className="text-center p-8 rounded-2xl bg-gradient-to-br from-rose-50 to-pink-50 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
+                className="text-center p-8 rounded-2xl bg-gradient-to-br from-rose-50 to-pink-50 hover:shadow-xl transition-all duration-300"
               >
                 <div className="bg-gradient-to-r from-rose-400 to-pink-500 text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
                   {feature.icon}
@@ -88,14 +90,14 @@ const Home = () => {
       <section className="py-20 bg-gradient-to-br from-rose-50 to-pink-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Featured Services</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Services</h2>
             <p className="text-xl text-gray-600">Discover our most popular treatments</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map((service, index) => (
               <div
                 key={index}
-                className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
+                className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300"
               >
                 <div className="text-4xl mb-4 text-center">{service.image}</div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">{service.name}</h3>

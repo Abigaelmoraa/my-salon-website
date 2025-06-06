@@ -11,7 +11,7 @@ const Payment = () => {
     cvv: '',
     name: '',
     email: '',
-    amount: '75.00'
+    amount: '1800.00'
   });
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -49,7 +49,7 @@ const Payment = () => {
     console.log('Payment processed:', paymentData);
     toast({
       title: "Payment Successful!",
-      description: "Your payment has been processed. Thank you for choosing Bella Salon!",
+      description: "Your payment has been processed. Thank you for choosing Abby Salon!",
     });
     
     // Simulate redirect to success page
@@ -105,7 +105,7 @@ const Payment = () => {
             <div className="bg-rose-50 rounded-lg p-4 mb-6">
               <div className="flex justify-between items-center">
                 <span className="text-lg font-semibold text-gray-900">Total Amount</span>
-                <span className="text-2xl font-bold text-rose-600">${paymentData.amount}</span>
+                <span className="text-2xl font-bold text-rose-600">KSH {parseFloat(paymentData.amount).toLocaleString()}</span>
               </div>
             </div>
 
@@ -138,15 +138,15 @@ const Payment = () => {
                 </button>
                 <button
                   type="button"
-                  onClick={() => setPaymentMethod('paypal')}
+                  onClick={() => setPaymentMethod('mpesa')}
                   className={`p-4 border-2 rounded-lg text-center transition-all duration-300 ${
-                    paymentMethod === 'paypal'
+                    paymentMethod === 'mpesa'
                       ? 'border-rose-500 bg-rose-50 text-rose-700'
                       : 'border-gray-200 hover:border-rose-300'
                   }`}
                 >
-                  <div className="text-2xl mb-2">🅿️</div>
-                  <span className="font-medium">PayPal</span>
+                  <div className="text-2xl mb-2">📱</div>
+                  <span className="font-medium">M-Pesa</span>
                 </button>
               </div>
             </div>
@@ -221,15 +221,15 @@ const Payment = () => {
                 </>
               )}
 
-              {paymentMethod === 'paypal' && (
+              {paymentMethod === 'mpesa' && (
                 <div className="text-center py-8">
-                  <div className="text-4xl mb-4">🅿️</div>
-                  <p className="text-gray-600 mb-6">You'll be redirected to PayPal to complete your payment</p>
+                  <div className="text-4xl mb-4">📱</div>
+                  <p className="text-gray-600 mb-6">You'll be redirected to M-Pesa to complete your payment</p>
                   <button
                     type="submit"
-                    className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-all duration-300"
+                    className="bg-green-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-700 transition-all duration-300"
                   >
-                    Continue with PayPal
+                    Pay with M-Pesa
                   </button>
                 </div>
               )}
@@ -255,7 +255,7 @@ const Payment = () => {
                   type="submit"
                   className="w-full bg-gradient-to-r from-rose-500 to-pink-500 text-white py-4 px-6 rounded-lg font-semibold hover:from-rose-600 hover:to-pink-600 transform hover:scale-105 transition-all duration-300 shadow-lg"
                 >
-                  Complete Payment - ${paymentData.amount}
+                  Complete Payment - KSH {parseFloat(paymentData.amount).toLocaleString()}
                 </button>
               )}
             </form>

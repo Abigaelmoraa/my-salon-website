@@ -18,14 +18,14 @@ const Appointment = () => {
   });
 
   const services = [
-    { name: "Women's Haircut", price: 45, duration: 45 },
-    { name: "Men's Haircut", price: 35, duration: 30 },
-    { name: "Hair Coloring", price: 80, duration: 120 },
-    { name: "Highlights", price: 95, duration: 150 },
-    { name: "Manicure", price: 25, duration: 30 },
-    { name: "Pedicure", price: 30, duration: 45 },
-    { name: "Facial Treatment", price: 60, duration: 60 },
-    { name: "Eyebrow Shaping", price: 20, duration: 15 }
+    { name: "Women's Haircut", price: 1200, duration: 45 },
+    { name: "Men's Haircut", price: 900, duration: 30 },
+    { name: "Hair Coloring", price: 2500, duration: 120 },
+    { name: "Highlights", price: 3000, duration: 150 },
+    { name: "Manicure", price: 600, duration: 30 },
+    { name: "Pedicure", price: 800, duration: 45 },
+    { name: "Facial Treatment", price: 1800, duration: 60 },
+    { name: "Eyebrow Shaping", price: 500, duration: 15 }
   ];
 
   const stylists = [
@@ -143,7 +143,7 @@ const Appointment = () => {
                         onClick={() => setAppointmentData({...appointmentData, service: service.name})}
                       >
                         <h3 className="font-semibold text-gray-900">{service.name}</h3>
-                        <p className="text-rose-600 font-bold">${service.price}</p>
+                        <p className="text-rose-600 font-bold">KSH {service.price.toLocaleString()}</p>
                         <p className="text-gray-500 text-sm">{service.duration} minutes</p>
                       </div>
                     ))}
@@ -254,7 +254,7 @@ const Appointment = () => {
                     <p><span className="font-medium">Time:</span> {appointmentData.time}</p>
                     <p><span className="font-medium">Stylist:</span> {appointmentData.stylist}</p>
                     {selectedService && (
-                      <p><span className="font-medium">Price:</span> ${selectedService.price}</p>
+                      <p><span className="font-medium">Price:</span> KSH {selectedService.price.toLocaleString()}</p>
                     )}
                   </div>
                 </div>
@@ -288,7 +288,7 @@ const Appointment = () => {
                       onChange={handleInputChange}
                       required
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-rose-500 focus:border-transparent"
-                      placeholder="(555) 123-4567"
+                      placeholder="+254 123 456 789"
                     />
                   </div>
                 </div>

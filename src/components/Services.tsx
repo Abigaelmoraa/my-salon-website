@@ -10,16 +10,15 @@ const Services = () => {
     { id: 'all', name: 'All Services' },
     { id: 'hair', name: 'Hair Services' },
     { id: 'nails', name: 'Nail Services' },
-    { id: 'facial', name: 'Facial Services' },
-    { id: 'spa', name: 'Spa Services' }
+    { id: 'facial', name: 'Facial Services' }
   ];
 
   const services = [
     {
       category: 'hair',
       name: 'Women\'s Haircut',
-      description: 'Professional cut and style tailored to your face shape and lifestyle',
-      price: '$45',
+      description: 'Professional cut and style tailored to your face shape',
+      price: 'KSH 1,200',
       duration: '45 min',
       image: '💇‍♀️'
     },
@@ -27,15 +26,15 @@ const Services = () => {
       category: 'hair',
       name: 'Men\'s Haircut',
       description: 'Classic and modern cuts for the modern gentleman',
-      price: '$35',
+      price: 'KSH 900',
       duration: '30 min',
       image: '💇‍♂️'
     },
     {
       category: 'hair',
       name: 'Hair Coloring',
-      description: 'Full color transformation with premium color products',
-      price: '$80',
+      description: 'Full color transformation with premium products',
+      price: 'KSH 2,500',
       duration: '120 min',
       image: '🎨'
     },
@@ -43,23 +42,15 @@ const Services = () => {
       category: 'hair',
       name: 'Highlights',
       description: 'Partial or full highlights to brighten your look',
-      price: '$95',
+      price: 'KSH 3,000',
       duration: '150 min',
       image: '✨'
-    },
-    {
-      category: 'hair',
-      name: 'Hair Treatment',
-      description: 'Deep conditioning treatment for healthy, shiny hair',
-      price: '$40',
-      duration: '30 min',
-      image: '🌿'
     },
     {
       category: 'nails',
       name: 'Classic Manicure',
       description: 'Traditional manicure with nail shaping and polish',
-      price: '$25',
+      price: 'KSH 600',
       duration: '30 min',
       image: '💅'
     },
@@ -67,7 +58,7 @@ const Services = () => {
       category: 'nails',
       name: 'Gel Manicure',
       description: 'Long-lasting gel polish manicure',
-      price: '$35',
+      price: 'KSH 900',
       duration: '45 min',
       image: '💎'
     },
@@ -75,23 +66,15 @@ const Services = () => {
       category: 'nails',
       name: 'Classic Pedicure',
       description: 'Relaxing foot treatment with nail care and polish',
-      price: '$30',
+      price: 'KSH 800',
       duration: '45 min',
       image: '🦶'
-    },
-    {
-      category: 'nails',
-      name: 'Nail Art',
-      description: 'Custom nail art designs and decorations',
-      price: '$15',
-      duration: '20 min',
-      image: '🎨'
     },
     {
       category: 'facial',
       name: 'Classic Facial',
       description: 'Deep cleansing facial for all skin types',
-      price: '$60',
+      price: 'KSH 1,800',
       duration: '60 min',
       image: '✨'
     },
@@ -99,41 +82,17 @@ const Services = () => {
       category: 'facial',
       name: 'Anti-Aging Facial',
       description: 'Advanced treatment to reduce signs of aging',
-      price: '$85',
+      price: 'KSH 2,500',
       duration: '75 min',
       image: '🌟'
     },
     {
       category: 'facial',
-      name: 'Acne Treatment',
-      description: 'Specialized treatment for acne-prone skin',
-      price: '$70',
-      duration: '60 min',
-      image: '🌱'
-    },
-    {
-      category: 'spa',
       name: 'Eyebrow Shaping',
       description: 'Professional eyebrow waxing and shaping',
-      price: '$20',
+      price: 'KSH 500',
       duration: '15 min',
       image: '👁️'
-    },
-    {
-      category: 'spa',
-      name: 'Eyelash Extensions',
-      description: 'Beautiful, natural-looking lash extensions',
-      price: '$120',
-      duration: '120 min',
-      image: '👁️'
-    },
-    {
-      category: 'spa',
-      name: 'Makeup Application',
-      description: 'Professional makeup for special occasions',
-      price: '$50',
-      duration: '45 min',
-      image: '💄'
     }
   ];
 
@@ -148,7 +107,7 @@ const Services = () => {
         <div className="text-center">
           <h1 className="text-5xl font-bold text-gray-900 mb-6">Our Services</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover our comprehensive range of beauty and wellness services designed to help you look and feel your best
+            Discover our comprehensive range of beauty services
           </p>
         </div>
       </section>
@@ -178,7 +137,7 @@ const Services = () => {
           {filteredServices.map((service, index) => (
             <div
               key={index}
-              className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2"
+              className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300"
             >
               <div className="text-4xl mb-4 text-center">{service.image}</div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">{service.name}</h3>
