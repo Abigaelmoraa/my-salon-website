@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Clock, User, Contact as ContactIcon } from 'lucide-react';
 import { useToast } from '../hooks/use-toast';
@@ -89,9 +88,8 @@ const Contact = () => {
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Hours</h3>
                   <div className="text-gray-600 space-y-1">
-                    <p>Monday - Friday: 9:00 AM - 7:00 PM</p>
-                    <p>Saturday: 8:00 AM - 6:00 PM</p>
-                    <p>Sunday: 10:00 AM - 5:00 PM</p>
+                    <p>Sunday - Friday: 9:00 AM - 7:00 PM</p>
+                    <p>Saturday: Closed</p>
                   </div>
                 </div>
               </div>
