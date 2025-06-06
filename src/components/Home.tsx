@@ -23,10 +23,26 @@ const Home = () => {
   ];
 
   const services = [
-    { name: 'Hair Cut & Style', price: 'KSH 1,200', image: '💇‍♀️' },
-    { name: 'Hair Coloring', price: 'KSH 2,500', image: '🎨' },
-    { name: 'Manicure & Pedicure', price: 'KSH 900', image: '💅' },
-    { name: 'Facial Treatment', price: 'KSH 1,800', image: '✨' }
+    { 
+      name: 'Hair Cut & Style', 
+      price: 'KSH 1,200', 
+      image: 'https://images.unsplash.com/photo-1560869713-bf165a1ed779?w=300&h=200&fit=crop'
+    },
+    { 
+      name: 'Box Braids', 
+      price: 'KSH 3,500', 
+      image: 'https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=300&h=200&fit=crop'
+    },
+    { 
+      name: 'Manicure & Pedicure', 
+      price: 'KSH 900', 
+      image: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300&h=200&fit=crop'
+    },
+    { 
+      name: 'Facial Treatment', 
+      price: 'KSH 1,800', 
+      image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=300&h=200&fit=crop'
+    }
   ];
 
   return (
@@ -97,17 +113,25 @@ const Home = () => {
             {services.map((service, index) => (
               <div
                 key={index}
-                className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300"
+                className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden"
               >
-                <div className="text-4xl mb-4 text-center">{service.image}</div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">{service.name}</h3>
-                <p className="text-2xl font-bold text-rose-600 mb-4">{service.price}</p>
-                <Link
-                  to="/appointment"
-                  className="w-full bg-gradient-to-r from-rose-500 to-pink-500 text-white py-2 px-4 rounded-lg font-medium hover:from-rose-600 hover:to-pink-600 transition-all duration-300 block text-center"
-                >
-                  Book Now
-                </Link>
+                <div className="h-48 overflow-hidden">
+                  <img 
+                    src={service.image} 
+                    alt={service.name}
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{service.name}</h3>
+                  <p className="text-2xl font-bold text-rose-600 mb-4">{service.price}</p>
+                  <Link
+                    to="/appointment"
+                    className="w-full bg-gradient-to-r from-rose-500 to-pink-500 text-white py-2 px-4 rounded-lg font-medium hover:from-rose-600 hover:to-pink-600 transition-all duration-300 block text-center"
+                  >
+                    Book Now
+                  </Link>
+                </div>
               </div>
             ))}
           </div>

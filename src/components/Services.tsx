@@ -9,6 +9,7 @@ const Services = () => {
   const categories = [
     { id: 'all', name: 'All Services' },
     { id: 'hair', name: 'Hair Services' },
+    { id: 'braiding', name: 'Braiding' },
     { id: 'nails', name: 'Nail Services' },
     { id: 'facial', name: 'Facial Services' }
   ];
@@ -20,7 +21,7 @@ const Services = () => {
       description: 'Professional cut and style tailored to your face shape',
       price: 'KSH 1,200',
       duration: '45 min',
-      image: '💇‍♀️'
+      image: 'https://images.unsplash.com/photo-1560869713-bf165a1ed779?w=300&h=200&fit=crop'
     },
     {
       category: 'hair',
@@ -28,7 +29,7 @@ const Services = () => {
       description: 'Classic and modern cuts for the modern gentleman',
       price: 'KSH 900',
       duration: '30 min',
-      image: '💇‍♂️'
+      image: 'https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=300&h=200&fit=crop'
     },
     {
       category: 'hair',
@@ -36,7 +37,7 @@ const Services = () => {
       description: 'Full color transformation with premium products',
       price: 'KSH 2,500',
       duration: '120 min',
-      image: '🎨'
+      image: 'https://images.unsplash.com/photo-1522338242992-e1a54906a8da?w=300&h=200&fit=crop'
     },
     {
       category: 'hair',
@@ -44,7 +45,55 @@ const Services = () => {
       description: 'Partial or full highlights to brighten your look',
       price: 'KSH 3,000',
       duration: '150 min',
-      image: '✨'
+      image: 'https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=300&h=200&fit=crop'
+    },
+    {
+      category: 'braiding',
+      name: 'Box Braids',
+      description: 'Classic protective box braids in various sizes',
+      price: 'KSH 3,500',
+      duration: '4-6 hours',
+      image: 'https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=300&h=200&fit=crop'
+    },
+    {
+      category: 'braiding',
+      name: 'Cornrows',
+      description: 'Traditional cornrow braiding in creative patterns',
+      price: 'KSH 2,500',
+      duration: '2-3 hours',
+      image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop'
+    },
+    {
+      category: 'braiding',
+      name: 'French Braids',
+      description: 'Elegant French braids for special occasions',
+      price: 'KSH 1,800',
+      duration: '1-2 hours',
+      image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300&h=200&fit=crop'
+    },
+    {
+      category: 'braiding',
+      name: 'Ghana Braids',
+      description: 'Beautiful Ghana braids with intricate patterns',
+      price: 'KSH 4,000',
+      duration: '5-7 hours',
+      image: 'https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?w=300&h=200&fit=crop'
+    },
+    {
+      category: 'braiding',
+      name: 'Twist Braids',
+      description: 'Stylish twist braids for a modern look',
+      price: 'KSH 3,200',
+      duration: '3-4 hours',
+      image: 'https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=300&h=200&fit=crop'
+    },
+    {
+      category: 'braiding',
+      name: 'Fulani Braids',
+      description: 'Traditional Fulani braids with beads and accessories',
+      price: 'KSH 4,500',
+      duration: '6-8 hours',
+      image: 'https://images.unsplash.com/photo-1580618671485-2e52e5f0f04d?w=300&h=200&fit=crop'
     },
     {
       category: 'nails',
@@ -52,7 +101,7 @@ const Services = () => {
       description: 'Traditional manicure with nail shaping and polish',
       price: 'KSH 600',
       duration: '30 min',
-      image: '💅'
+      image: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300&h=200&fit=crop'
     },
     {
       category: 'nails',
@@ -60,7 +109,7 @@ const Services = () => {
       description: 'Long-lasting gel polish manicure',
       price: 'KSH 900',
       duration: '45 min',
-      image: '💎'
+      image: 'https://images.unsplash.com/photo-1610992015782-3b0e2ec94cb4?w=300&h=200&fit=crop'
     },
     {
       category: 'nails',
@@ -68,7 +117,7 @@ const Services = () => {
       description: 'Relaxing foot treatment with nail care and polish',
       price: 'KSH 800',
       duration: '45 min',
-      image: '🦶'
+      image: 'https://images.unsplash.com/photo-1519014816548-bf5fe059798b?w=300&h=200&fit=crop'
     },
     {
       category: 'facial',
@@ -76,7 +125,7 @@ const Services = () => {
       description: 'Deep cleansing facial for all skin types',
       price: 'KSH 1,800',
       duration: '60 min',
-      image: '✨'
+      image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=300&h=200&fit=crop'
     },
     {
       category: 'facial',
@@ -84,7 +133,7 @@ const Services = () => {
       description: 'Advanced treatment to reduce signs of aging',
       price: 'KSH 2,500',
       duration: '75 min',
-      image: '🌟'
+      image: 'https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=300&h=200&fit=crop'
     },
     {
       category: 'facial',
@@ -92,7 +141,7 @@ const Services = () => {
       description: 'Professional eyebrow waxing and shaping',
       price: 'KSH 500',
       duration: '15 min',
-      image: '👁️'
+      image: 'https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=300&h=200&fit=crop'
     }
   ];
 
@@ -107,7 +156,7 @@ const Services = () => {
         <div className="text-center">
           <h1 className="text-5xl font-bold text-gray-900 mb-6">Our Services</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover our comprehensive range of beauty services
+            Discover our comprehensive range of beauty services including expert braiding
           </p>
         </div>
       </section>
@@ -137,24 +186,32 @@ const Services = () => {
           {filteredServices.map((service, index) => (
             <div
               key={index}
-              className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300"
+              className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden"
             >
-              <div className="text-4xl mb-4 text-center">{service.image}</div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">{service.name}</h3>
-              <p className="text-gray-600 mb-4 text-sm">{service.description}</p>
-              <div className="flex items-center justify-between mb-4">
-                <span className="text-2xl font-bold text-rose-600">{service.price}</span>
-                <div className="flex items-center text-gray-500 text-sm">
-                  <Clock className="h-4 w-4 mr-1" />
-                  {service.duration}
-                </div>
+              <div className="h-48 overflow-hidden">
+                <img 
+                  src={service.image} 
+                  alt={service.name}
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
               </div>
-              <Link
-                to="/appointment"
-                className="w-full bg-gradient-to-r from-rose-500 to-pink-500 text-white py-3 px-4 rounded-lg font-medium hover:from-rose-600 hover:to-pink-600 transition-all duration-300 block text-center"
-              >
-                Book This Service
-              </Link>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">{service.name}</h3>
+                <p className="text-gray-600 mb-4 text-sm">{service.description}</p>
+                <div className="flex items-center justify-between mb-4">
+                  <span className="text-2xl font-bold text-rose-600">{service.price}</span>
+                  <div className="flex items-center text-gray-500 text-sm">
+                    <Clock className="h-4 w-4 mr-1" />
+                    {service.duration}
+                  </div>
+                </div>
+                <Link
+                  to="/appointment"
+                  className="w-full bg-gradient-to-r from-rose-500 to-pink-500 text-white py-3 px-4 rounded-lg font-medium hover:from-rose-600 hover:to-pink-600 transition-all duration-300 block text-center"
+                >
+                  Book This Service
+                </Link>
+              </div>
             </div>
           ))}
         </div>
