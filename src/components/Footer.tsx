@@ -45,9 +45,9 @@ const Footer = () => {
             <ul className="space-y-2">
               <li><span className="text-gray-300">Hair Cut & Style</span></li>
               <li><span className="text-gray-300">Hair Coloring</span></li>
+              <li><span className="text-gray-300">Braiding Services</span></li>
               <li><span className="text-gray-300">Manicure & Pedicure</span></li>
               <li><span className="text-gray-300">Facial Treatments</span></li>
-              <li><span className="text-gray-300">Bridal Packages</span></li>
             </ul>
           </div>
 
