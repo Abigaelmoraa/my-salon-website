@@ -5,16 +5,16 @@ const About = () => {
   const team = [
     {
       name: 'Sarah Johnson',
-      role: 'Master Stylist',
+      role: 'Hair Stylist',
       experience: '15 years',
-      specialty: 'Color & Cuts',
+      specialty: 'Coloring & Blowdry',
       image: '👩‍💼'
     },
     {
       name: 'Maria Garcia',
-      role: 'Senior Stylist',
+      role: 'Braiding Expert',
       experience: '10 years',
-      specialty: 'Bridal & Events',
+      specialty: 'bridal & knoteless and box braids',
       image: '👩‍🎨'
     },
     {
@@ -28,7 +28,7 @@ const About = () => {
       name: 'Amanda Wilson',
       role: 'Aesthetician',
       experience: '12 years',
-      specialty: 'Skincare',
+      specialty: 'Skincare Facials',
       image: '👩‍⚕️'
     }
   ];

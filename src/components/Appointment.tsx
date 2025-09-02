@@ -25,7 +25,14 @@ const Appointment = () => {
     { name: "Manicure", price: 600, duration: 30 },
     { name: "Pedicure", price: 800, duration: 45 },
     { name: "Facial Treatment", price: 1800, duration: 60 },
-    { name: "Eyebrow Shaping", price: 500, duration: 15 }
+    { name: "Eyebrow Shaping", price: 500, duration: 150 },
+    { name: "Knoteless Braids", price: 1400, duration: 120 },
+    { name: "Cornrows", price: 1200, duration: 180 },
+    { name: "Natural Twistouts", price: 1400, duration: 120 },
+    { name: "Box Braids", price: 1600, duration: 240 },
+    { name: "Back to School Lines", price: 800, duration: 120 },
+    { name: "French Curls", price: 2000, duration: 360 },
+    { name: "Nails, Gel, tips", price: 1500, duration: 120 },
   ];
 
   const stylists = [

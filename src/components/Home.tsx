@@ -26,22 +26,22 @@ const Home = () => {
     { 
       name: 'Hair Cut & Style', 
       price: 'KSH 1,200', 
-      image: 'https://images.unsplash.com/photo-1560869713-bf165a1ed779?w=300&h=200&fit=crop'
+      image: 'https://.unsplash.com/photo-1560869713-bf165a1ed779?w=300&h=200&fit=crop'
     },
     { 
       name: 'Box Braids', 
       price: 'KSH 3,500', 
-      image: 'https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=300&h=200&fit=crop'
+      image: 'https://.unsplash.com/photo-1580618672591-eb180b1a973f?w=300&h=200&fit=crop'
     },
     { 
       name: 'Manicure & Pedicure', 
       price: 'KSH 900', 
-      image: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?w=300&h=200&fit=crop'
+      image: 'https://.unsplash.com/photo-1604654894610-df63bc536371?w=300&h=200&fit=crop'
     },
     { 
       name: 'Facial Treatment', 
       price: 'KSH 1,800', 
-      image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=300&h=200&fit=crop'
+      image: 'https://.unsplash.com/photo-1570172619644-dfd03ed5d881?w=300&h=200&fit=crop'
     }
   ];
 
