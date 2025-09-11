@@ -57,7 +57,7 @@ const Contact = () => {
                   <p className="text-gray-600">
                     123 Beauty Boulevard<br />
                     Salon District, SD 12345<br />
-                    United States
+                    Kenya.
                   </p>
                 </div>
               </div>

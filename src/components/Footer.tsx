@@ -17,7 +17,7 @@ const Footer = () => {
               <span className="text-2xl font-bold">Abby Salon</span>
             </Link>
             <p className="text-gray-300 mb-4">
-              Transform your look with our premium salon services. Beauty redefined since 2003.
+              Transform your look with our premium salon services. Beauty redefined since 2024.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-rose-400 transition-colors">📘</a>

@@ -10,7 +10,8 @@ const Services = () => {
     { id: 'hair', name: 'Hair Services' },
     { id: 'braiding', name: 'Braiding' },
     { id: 'nails', name: 'Nail Services' },
-    { id: 'facial', name: 'Facial Services' }
+    { id: 'facial', name: 'Facial Services' },
+    { id: 'locs', name: 'locs services' }
   ];
 
   const services = [
@@ -20,7 +21,7 @@ const Services = () => {
       description: 'Professional cut and style tailored to your face shape',
       price: 'KSH 500',
       duration: '45 min',
-      image: 'https://.unsplash.com/photo-1560869713-bf165a1ed779?w=300&h=200&fit=crop'
+      image: 'public/images/ladies haircut.jpg'
     },
     {
       category: 'hair',
@@ -28,7 +29,7 @@ const Services = () => {
       description: 'Classic and modern cuts for the modern gentleman',
       price: 'KSH 400',
       duration: '30 min',
-      image: 'https://.unsplash.com/photo-1621605815971-fbc98d665033?w=300&h=200&fit=crop'
+      image: 'public/images/men hair cut.jpg'
     },
     {
       category: 'hair',
@@ -36,7 +37,7 @@ const Services = () => {
       description: 'Full color transformation with premium products',
       price: 'KSH 1,200',
       duration: '120 min',
-      image: 'https://.unsplash.com/photo-1522338242992-e1a54906a8da?w=300&h=200&fit=crop'
+      image: 'public/images/hair colouring.jpg'
     },
     {
       category: 'braiding',
@@ -44,7 +45,7 @@ const Services = () => {
       description: 'Classic protective knoteless protective braids',
       price: 'KSH 1,400',
       duration: '150 min',
-      image: 'https://.unsplash.com/photo-1529896596740-10c28652f2db?w=300&h=200&fit=crop'
+      image: 'public/images/knoteless braids.jpg'
     },
     {
       category: 'braiding',
@@ -52,7 +53,7 @@ const Services = () => {
       description: 'Classic protective box braids in various sizes',
       price: 'KSH 1,600',
       duration: '4-6 hours',
-      image: 'https://.unsplash.com/photo-1580618672591-eb180b1a973f?w=300&h=200&fit=crop'
+      image: 'public/images/box braids.jpg'
     },
     {
       category: 'braiding',
@@ -60,7 +61,7 @@ const Services = () => {
       description: 'Traditional cornrow braiding in creative patterns',
       price: 'KSH 1,200',
       duration: '2-3 hours',
-      image: 'https://.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop'
+      image: 'public/images/cornrows.2.jpg'
     },
     {
       category: 'braiding',
@@ -68,7 +69,7 @@ const Services = () => {
       description: 'Natural lines for kids',
       price: 'KSH 800',
       duration: '1-2 hours',
-      image: 'https://.unsplash.com/photo-1522337360788-8b13dee7a37e?w=300&h=200&fit=crop'
+      image: 'public/images/back to school.jpg'
     },
     {
       category: 'braiding',
@@ -76,7 +77,7 @@ const Services = () => {
       description: 'Beautiful french braids for great ocassion',
       price: 'KSH 1,800',
       duration: '5-7 hours',
-      image: 'https://.unsplash.com/photo-1616683693504-3ea7e9ad6fec?w=300&h=200&fit=crop'
+      image: 'public/images/french curls.jpg'
     },
     {
       category: 'braiding',
@@ -84,15 +85,15 @@ const Services = () => {
       description: 'Stylish twist outs for a natural look',
       price: 'KSH 1,400',
       duration: '3-4 hours',
-      image: 'https://.unsplash.com/photo-1594736797933-d0d89d87cd89?w=300&h=200&fit=crop'
+      image: 'public/images/natural twistouts.jpg'
     },
     {
       category: 'braiding',
       name: 'Fulani Braids',
-      description: 'Traditional Fulani braids with beads and accessories',
+      description: 'Traditional Fulani braids very elegant and  gives good vibe',
       price: 'KSH 2,000',
       duration: '6-8 hours',
-      image: 'https://.unsplash.com/photo-1580618671485-2e52e5f0f04d?w=300&h=200&fit=crop'
+      image: 'public/images/fulani braids.jpg'
     },
     {
       category: 'nails',
@@ -100,7 +101,7 @@ const Services = () => {
       description: 'Traditional manicure with nail shaping and polish',
       price: 'KSH 300',
       duration: '30 min',
-      image: 'https://.unsplash.com/photo-1604654894610-df63bc536371?w=300&h=200&fit=crop'
+      image: 'public/images/nails manicure.2.jpg'
     },
     {
       category: 'nails',
@@ -108,7 +109,7 @@ const Services = () => {
       description: 'Long-lasting gel polish, tips and pedicure',
       price: 'KSH 450',
       duration: '45 min',
-      image: 'https://.unsplash.com/photo-1610992015782-3b0e2ec94cb4?w=300&h=200&fit=crop'
+      image: 'public/images/classic pedicure.2.jpg'
     },
     {
       category: 'nails',
@@ -116,7 +117,7 @@ const Services = () => {
       description: 'Relaxing foot treatment with nail care and polish',
       price: 'KSH 400',
       duration: '45 min',
-      image: 'https://.unsplash.com/photo-1584464491033-06628f3a6b7b?w=300&h=200&fit=crop'
+      image: 'public/images/pedicure image.jpg'
     },
     {
       category: 'facial',
@@ -124,7 +125,7 @@ const Services = () => {
       description: 'Deep cleansing facial for all skin types',
       price: 'KSH 800',
       duration: '60 min',
-      image: 'https://.unsplash.com/photo-1570172619644-dfd03ed5d881?w=300&h=200&fit=crop'
+      image: 'public/images/facial treatment.jpg'
     },
     {
       category: 'facial',
@@ -132,7 +133,7 @@ const Services = () => {
       description: 'Advanced treatment to reduce signs of aging',
       price: 'KSH 1,200',
       duration: '75 min',
-      image: 'https://.unsplash.com/photo-1616394584738-fc6e612e71b9?w=300&h=200&fit=crop'
+      image: 'public/images/anti-aging facial.jpg'
     },
     {
       category: 'facial',
@@ -140,11 +141,46 @@ const Services = () => {
       description: 'Professional eyebrow waxing and shaping',
       price: 'KSH 250',
       duration: '15 min',
-      image: 'https://.unsplash.com/photo-1598300042247-d088f8ab3a91?w=300&h=200&fit=crop'
-    }
+      image: 'public/images/eyebrow shaping.jpg'
+    },
+    {category: 'hair',
+      name: 'blow dry',
+      description: 'Straighten hair to give a natural look',
+      price: 'KSH 250',
+      duration: '15 min',
+      image: 'public/images/blow dry.jpg'
+    },
+    {category: 'locs',
+      name: 'invissible locs',
+      description: 'Straighten hair to give a natural look',
+      price: 'KSH 2000',
+      duration: '240 min',
+      image: 'public/images/invisible locks.jpg'
+    },
+    {category: 'locs',
+      name: 'parmanent locs',
+      description: 'Straighten hair to give a natural look',
+      price: 'KSH 3500',
+      duration: '360 min',
+      image: 'public/images/parmanent locs.jpg'
+    },
+    {category: 'locs',
+      name: 'gypsy locs',
+      description: 'Straighten hair to give a natural look',
+      price: 'KSH 2500',
+      duration: '240 min',
+      image: 'public/images/gypsy locs.jpg'
+    },
+    {category: 'locs',
+      name: 'sista locs',
+      description: 'Straighten hair to give a natural look',
+      price: 'KSH 25000',
+      duration: '720 min',
+      image: 'public/images/sista locs.jpg'
+    },
   ];
-
-  const filteredServices = selectedCategory === 'all' 
+  const filteredServices =
+   selectedCategory === 'all' 
     ? services 
     : services.filter(service => service.category === selectedCategory);
 

@@ -33,11 +33,16 @@ const Appointment = () => {
     { name: "Back to School Lines", price: 800, duration: 120 },
     { name: "French Curls", price: 2000, duration: 360 },
     { name: "Nails, Gel, tips", price: 1500, duration: 120 },
+    { name: "Blow dry", price: 250, duration: 15 },
+    { name: "Parmanent locs", price: 3500, duration: 360 },
+    { name: "Gypsy locs", price: 2500, duration: 240 },
+    { name: "Sista locs", price: 25000, duration: 720},
+    { name: "Invisible locs", price: 2000, duration: 240 },
   ];
 
   const stylists = [
     { name: 'Sarah Johnson', specialty: 'Hair Styling & Color' },
-    { name: 'Maria Garcia', specialty: 'Bridal & Events' },
+    { name: 'Maria Garcia', specialty: 'locs & braiding' },
     { name: 'Jessica Chen', specialty: 'Nail Services' },
     { name: 'Amanda Wilson', specialty: 'Skincare & Facials' }
   ];
